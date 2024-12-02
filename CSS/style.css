@@ -1,0 +1,311 @@
+.picture {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+}
+
+.photo__main {
+    max-width: 100%;
+}
+
+.developer {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 400;
+    background-color: #121212;
+    padding: 12px 20px;
+}
+
+.card {
+    padding: 40px 70px;
+}
+
+.card-title {
+    color: #121212;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.card-city {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.card-web__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.whatsapp:hover,
+.instagram:hover,
+.vkontakte:hover,
+.telegram:hover,
+.linkedin:hover,
+.github:hover {
+    opacity: 0.5;
+}
+
+.card-stack {
+    color: #121212;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    padding: 50px 0 20px;
+}
+
+.card-stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card-stack__item {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    background-color: #414141;
+    padding: 14px 55px;
+    color: #FFFFFF;
+    border-radius: 45px;
+}
+
+.card-stack__item:hover {
+    opacity: 0.5;
+    cursor: default;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.card-about-me {
+    margin-top: 50px;
+    max-width: 1024px;
+}
+
+.card-about-me p {
+    font-size: 32px;
+    line-height: 38px;
+    text-indent: 30px;
+    padding-top: 20px;
+}
+
+.card-feedback {
+    max-width: 702px;
+}
+
+.card__input {
+    display: flex;
+    padding-top: 50px;
+    gap: 25px;
+    font-size: 32px;
+}
+
+input::placeholder {
+    color: #121212;
+}
+
+.card__input__item {
+    font-size: 32px;
+    font-weight: 500;
+    border: 1px solid #121212;
+    border-radius: 11px;
+    padding: 14px 16px;
+    width: 50%;
+}
+
+.card__button {
+    color: #FFFFFF;
+    background-color: #121212;
+    width: 100%;
+    height: 66px;
+    display: block;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 11px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card__button:hover {
+    background-color: #414141;
+}
+
+.card__button:active {
+    background-color: #1E1E1E;
+}
+
+@media (max-width: 992px) {
+    .card {
+        padding: 15px 40px;
+        width: 70%;
+    }
+
+    .card-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .developer {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .card-city {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .picture {
+        width: 70%;
+    }
+
+    .card-stack-list {
+        gap: 20px;
+    }
+
+    .card-stack {
+        font-size: 24px;
+        padding: 30px 0 20px;
+    }
+
+    .card-stack__item {
+        font-size: 24px;
+        padding: 10px 45px;
+    }
+
+    .card-about-me {
+        line-height: 23px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .card-about-me h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .card-about-me p {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .card__input {
+        padding-top: 20px;
+    }
+
+    .card__input__item {
+        font-size: 24px;
+        padding: 10px 16px;
+    }
+
+    .card__button {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .card-web__list {
+        padding-top: 30px;
+    }
+
+}
+
+
+@media (max-width: 540px) {
+
+    .picture {
+        width: 100%;
+    }
+
+    .card {
+        padding: 15px 0;
+        width: 100%;
+    }
+    
+
+    .developer {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .card-city {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .card-web__list {
+        padding-top: 16px;
+    }
+
+    .card-web__list>img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .card-stack {
+        font-size: 20px;
+        padding: 16px 0 10px;
+        font-weight: 500;
+    }
+
+    .card-stack-list {
+        gap: 10px 20px;
+    }
+
+    .card-stack__item {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+    }
+
+    .card-about-me {
+        line-height: 18px;
+        font-size: 16px;
+        padding-top: 16px;
+    }
+
+    .card-about-me h2 {
+        font-size: 20px;
+        line-height: 19px;
+    }
+
+    .card-about-me p {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .card-feedback {
+        max-width: unset;
+    }
+
+    .card__input {
+        padding-top: 16px;
+    }
+
+    .card__input__item {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .card__button {
+        font-size: 16px;
+        margin-top: 16px;
+        height: 35px;
+    }
+}
+
+
